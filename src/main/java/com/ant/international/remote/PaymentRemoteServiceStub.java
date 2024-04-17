@@ -10,8 +10,4 @@ public interface PaymentRemoteServiceStub {
 
     public ConsultResult isEnabled();
 
-    public void enable();
-
-    public void disable();
-
 }

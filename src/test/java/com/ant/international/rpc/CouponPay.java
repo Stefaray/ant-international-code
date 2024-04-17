@@ -20,12 +20,10 @@ public class CouponPay implements PaymentRemoteServiceStub {
         return new ConsultResult(isEnabled, isEnabled ? Constants.SUCCESS_STATUS_CODE : Constants.FAILURE_STATUS_CODE);
     }
 
-    @Override
     public void enable() {
         isEnabled = true;
     }
 
-    @Override
     public void disable() {
         isEnabled = false;
     }

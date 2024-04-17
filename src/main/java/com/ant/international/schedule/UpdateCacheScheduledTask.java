@@ -8,7 +8,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 定时任务
+ * 定时任务,每隔3秒刷新一次缓存
  */
 public class UpdateCacheScheduledTask {
 
