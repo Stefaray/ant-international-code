@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 缓存类
+ * 缓存类，单例模式
  */
 public class CacheService {
 

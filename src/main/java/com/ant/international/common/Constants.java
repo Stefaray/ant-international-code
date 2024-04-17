@@ -2,6 +2,7 @@ package com.ant.international.common;
 
 /**
  * 常量类，存全局常量
+ * 减少魔法值
  */
 public class Constants {
 
